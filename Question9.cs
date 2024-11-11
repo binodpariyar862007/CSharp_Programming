@@ -15,7 +15,7 @@ namespace CSharp
             Console.WriteLine("The perimeter of circle is: "+perimeter);
 
             Console.Write("Enter the radius of circle for area: ");
-            double area = 3.14 * radius;
+            double area = 3.14 * radius * radius;
 
             Console.WriteLine("The area of circle is: " + area);
         }
