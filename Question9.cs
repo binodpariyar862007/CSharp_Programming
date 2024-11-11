@@ -9,7 +9,7 @@ namespace CSharp
         public static void CalculateCircle()
         {
             Console.Write("Enter the radius of circle for perimeter: ");
-            double radius = Console.ReadLine();
+            double radius = Convert.ToDouble (Console.ReadLine());
 
             double perimeter = 2 * 3.14 * radius;
             Console.WriteLine("The perimeter of circle is: "+perimeter);
