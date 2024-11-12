@@ -36,9 +36,9 @@ namespace CSharp
             double speedInKmh = (distance / 1000) / (totalTimeInSeconds / 3600);
             double speedInMilesPerHour = speedInKmh * 0.621371;
 
-            Console.WriteLine("Your speed in metres/sec is {speedInMetersPerSec}");
-            Console.WriteLine("Your speed in km/h is {speedInKmh}");
-            Console.WriteLine("Your speed in miles/h is {speedInMilesPerHour}");
+            Console.WriteLine($"Your speed in metres/sec is {speedInMetersPerSec}");
+            Console.WriteLine($"Your speed in km/h is {speedInKmh}");
+            Console.WriteLine($"Your speed in miles/h is {speedInMilesPerHour}");
         }
     }
 }
